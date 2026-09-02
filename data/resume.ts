@@ -1,15 +1,15 @@
 export const profile = {
   name: "Arbaaz Shaikh",
-  role: "Senior Vulnerability Management Engineer",
+  role: "Senior Cybersecurity Engineer",
   tagline:
-    "I close the gap between a scan finding a vulnerability and an engineer fixing it — cutting critical exposure windows from a month to a week, across 30,000+ hybrid assets.",
+    "I cut Critical/High vulnerability exposure 76% faster, across 30,000+ enterprise assets.",
   location: "Pune, Maharashtra, India",
   email: "arbaazshaikh554@gmail.com",
   phone: "+91 82081 19244",
   linkedin: "linkedin.com/in/arbaaz-shaikh-512569138",
   linkedinUrl: "https://www.linkedin.com/in/arbaaz-shaikh-512569138",
   summary:
-    "Cybersecurity engineer with 4.8+ years focused on vulnerability management and 8+ years in enterprise IT. I run the full lifecycle — scanning, prioritization, remediation SLAs, and audit evidence — across Qualys VMDR, CrowdStrike Falcon EDR, and AWS/Azure. Vendor-side experience at Qualys supporting Google, Apple, IBM, and Deloitte informs how I tune detection and cut false positives on the operator side. CEH v13 AI certified; currently pursuing CISSP.",
+    "Cybersecurity engineer with 5+ years focused on vulnerability management and 8+ years in enterprise IT. I run the full lifecycle — scanning, prioritization, remediation SLAs, and audit evidence — across Qualys VMDR, CrowdStrike Falcon EDR, and AWS/Azure. Vendor-side experience at Qualys supporting Google, Apple, IBM, and Deloitte informs how I tune detection and cut false positives on the operator side. CEH v13 AI certified; currently pursuing CISSP.",
   status: "Open to Senior / Lead Vulnerability Management & Cloud Security roles",
 };
 

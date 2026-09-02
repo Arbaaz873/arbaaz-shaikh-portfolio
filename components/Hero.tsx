@@ -22,7 +22,7 @@ export default function Hero() {
             {profile.role} · Pune, India
           </p>
 
-          <p className="mt-7 text-base sm:text-lg text-ink/90 max-w-2xl leading-relaxed">
+          <p className="mt-7 text-base sm:text-lg text-ink/90 leading-relaxed">
             {profile.tagline}
           </p>
 
