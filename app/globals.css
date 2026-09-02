@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Geometric grotesk stack for display type, humanist sans for body copy,
+     and a technical monospace for data/labels — no external font fetch
+     required, so the build never depends on network access. Swap these
+     for self-hosted Space Grotesk / IBM Plex files in /public/fonts if
+     you want the exact original typefaces. */
+  --font-display: "Avenir Next", "Century Gothic", "Segoe UI", ui-sans-serif, system-ui,
+    sans-serif;
+  --font-body: "Segoe UI", "Helvetica Neue", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "Cascadia Code", "SF Mono", Consolas, ui-monospace,
+    SFMono-Regular, monospace;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+html {
+  background-color: #0b0f14;
+}
+
+body {
+  @apply bg-base text-ink font-body antialiased;
+  background-image: radial-gradient(circle at 15% 0%, rgba(95, 168, 255, 0.07), transparent 45%),
+    radial-gradient(circle at 85% 20%, rgba(255, 93, 93, 0.05), transparent 40%);
+}
+
+::selection {
+  background: #ff5d5d;
+  color: #0b0f14;
+}
+
+/* subtle scrollbar to match the console feel */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0f14;
+}
+::-webkit-scrollbar-thumb {
+  background: #212c38;
+  border-radius: 0;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2c3947;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.grid-bg {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+  background-size: 36px 36px;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
