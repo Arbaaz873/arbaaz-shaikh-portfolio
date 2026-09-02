@@ -6,6 +6,7 @@ export default function Hero() {
       <div className="absolute inset-0 grid-bg opacity-40 pointer-events-none" />
       <div className="relative px-6 sm:px-10 lg:px-16 pt-16 pb-14 lg:pt-24 lg:pb-20">
         <div className="max-w-4xl">
+<img src="/profile.jpg" alt="Arbaaz Shaikh" className="w-20 h-20 rounded-full object-cover border border-hairline mb-6" />
           <div className="flex items-center gap-2 font-mono text-xs text-muted mb-8">
             <span className="text-resolved">scan_status:</span>
             <span>complete</span>
